@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>YuHe&#39;s Blog</title>
+  
+  <subtitle>Explore the world of technology and programming</subtitle>
+  <link href="http://yuhe-dev.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://yuhe-dev.github.io/"/>
+  <updated>2025-04-13T09:45:09.384Z</updated>
+  <id>http://yuhe-dev.github.io/</id>
+  
+  <author>
+    <name>YuHe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>4.1 网络层概述</title>
+    <link href="http://yuhe-dev.github.io/2025/04/05/ji-suan-ji-wang-luo/chapter-4-network-layer/4.1-wang-luo-ceng-gai-shu/"/>
+    <id>http://yuhe-dev.github.io/2025/04/05/ji-suan-ji-wang-luo/chapter-4-network-layer/4.1-wang-luo-ceng-gai-shu/</id>
+    <published>2025-04-04T22:23:28.000Z</published>
+    <updated>2025-04-13T09:45:09.384Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;计算机网络从传输应用程序报文(&lt;em&gt;message&lt;/em&gt;)的应用层，到封装应用层报文为报文段(&lt;em&gt;segement&lt;/em&gt;)的运输层，再到本章即将要介绍的借助路由器将运输层的报文段继续封装成数据报(&lt;em&gt;datagram&lt;/em&gt;)并真正实现网络传输的网络层。</summary>
+        
+      
+    
+    
+    
+    <category term="Computer Internet" scheme="http://yuhe-dev.github.io/categories/Computer-Internet/"/>
+    
+    <category term="Chapter 4 Network Layer" scheme="http://yuhe-dev.github.io/categories/Computer-Internet/Chapter-4-Network-Layer/"/>
+    
+    
+    <category term="NetworkLayer" scheme="http://yuhe-dev.github.io/tags/NetworkLayer/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>4.2 路由器</title>
+    <link href="http://yuhe-dev.github.io/2025/04/05/ji-suan-ji-wang-luo/chapter-4-network-layer/4.2-lu-you-qi/"/>
+    <id>http://yuhe-dev.github.io/2025/04/05/ji-suan-ji-wang-luo/chapter-4-network-layer/4.2-lu-you-qi/</id>
+    <published>2025-04-04T22:23:28.000Z</published>
+    <updated>2025-04-14T14:47:13.884Z</updated>
+    
+    
+    
+    
+    <category term="Computer Internet" scheme="http://yuhe-dev.github.io/categories/Computer-Internet/"/>
+    
+    <category term="Chapter 4 Network Layer" scheme="http://yuhe-dev.github.io/categories/Computer-Internet/Chapter-4-Network-Layer/"/>
+    
+    
+    <category term="NetworkLayer" scheme="http://yuhe-dev.github.io/tags/NetworkLayer/"/>
+    
+    <category term="Router" scheme="http://yuhe-dev.github.io/tags/Router/"/>
+    
+  </entry>
+  
+</feed>
