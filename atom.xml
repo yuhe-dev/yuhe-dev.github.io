@@ -18,8 +18,8 @@
   
   <entry>
     <title>Computer and Internet</title>
-    <link href="http://yuhe-dev.github.io/2025/05/25/computer-and-internet/"/>
-    <id>http://yuhe-dev.github.io/2025/05/25/computer-and-internet/</id>
+    <link href="http://yuhe-dev.github.io/2025/05/25/ji-suan-ji-wang-luo/chapter-1-computer-and-internet/computer-and-internet/"/>
+    <id>http://yuhe-dev.github.io/2025/05/25/ji-suan-ji-wang-luo/chapter-1-computer-and-internet/computer-and-internet/</id>
     <published>2025-05-25T12:01:41.000Z</published>
     <updated>2025-05-25T12:42:17.149Z</updated>
     
@@ -40,6 +40,27 @@
     
     
     <category term="Internet_Survey" scheme="http://yuhe-dev.github.io/tags/Internet-Survey/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>4.2 路由器</title>
+    <link href="http://yuhe-dev.github.io/2025/04/05/ji-suan-ji-wang-luo/chapter-4-network-layer/4.2-lu-you-qi/"/>
+    <id>http://yuhe-dev.github.io/2025/04/05/ji-suan-ji-wang-luo/chapter-4-network-layer/4.2-lu-you-qi/</id>
+    <published>2025-04-04T22:23:28.000Z</published>
+    <updated>2025-04-14T14:47:13.884Z</updated>
+    
+    
+    
+    
+    <category term="Computer Internet" scheme="http://yuhe-dev.github.io/categories/Computer-Internet/"/>
+    
+    <category term="Chapter 4 Network Layer" scheme="http://yuhe-dev.github.io/categories/Computer-Internet/Chapter-4-Network-Layer/"/>
+    
+    
+    <category term="NetworkLayer" scheme="http://yuhe-dev.github.io/tags/NetworkLayer/"/>
+    
+    <category term="Router" scheme="http://yuhe-dev.github.io/tags/Router/"/>
     
   </entry>
   
@@ -67,27 +88,6 @@
     
     
     <category term="NetworkLayer" scheme="http://yuhe-dev.github.io/tags/NetworkLayer/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>4.2 路由器</title>
-    <link href="http://yuhe-dev.github.io/2025/04/05/ji-suan-ji-wang-luo/chapter-4-network-layer/4.2-lu-you-qi/"/>
-    <id>http://yuhe-dev.github.io/2025/04/05/ji-suan-ji-wang-luo/chapter-4-network-layer/4.2-lu-you-qi/</id>
-    <published>2025-04-04T22:23:28.000Z</published>
-    <updated>2025-04-14T14:47:13.884Z</updated>
-    
-    
-    
-    
-    <category term="Computer Internet" scheme="http://yuhe-dev.github.io/categories/Computer-Internet/"/>
-    
-    <category term="Chapter 4 Network Layer" scheme="http://yuhe-dev.github.io/categories/Computer-Internet/Chapter-4-Network-Layer/"/>
-    
-    
-    <category term="NetworkLayer" scheme="http://yuhe-dev.github.io/tags/NetworkLayer/"/>
-    
-    <category term="Router" scheme="http://yuhe-dev.github.io/tags/Router/"/>
     
   </entry>
   
