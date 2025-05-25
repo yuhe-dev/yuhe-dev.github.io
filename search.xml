@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Computer and Internet</title>
+      <link href="/2025/05/25/computer-and-internet/"/>
+      <url>/2025/05/25/computer-and-internet/</url>
+      
+        <content type="html"><![CDATA[<h1 id="基本的概念和问题的解答"><a href="#基本的概念和问题的解答" class="headerlink" title="基本的概念和问题的解答"></a>基本的概念和问题的解答</h1><h2 id="什么是因特网"><a href="#什么是因特网" class="headerlink" title="什么是因特网"></a>什么是因特网</h2><p>笼统地说，一个连接着很多节点并用于传输信息的系统就可以称作是一个网络。但是显然这实在太笼统了，对于理解因特网和诸多网络系统来说没什么益处。</p><p>顺带一提，网络(<em>network</em>)一词并非单指因特网，网络包括电话网络，无线网络，光纤网络，数据中心网络，交通运输网络，社交网络等等。但是在计算机网络这一部分我们专注于讲解因特网而已。</p><p><strong>所以到底什么什么是因特网？</strong></p><ul><li>因特网是使用TCP/IP组件连接全世界范围内的组织、个人设备和无线计算机网络的全球系统。是网络的网络</li></ul><hr><p>几个概念：</p><ul><li><strong>端系统</strong>：现代社会中的所有可以接入因特网的电子设备，包括手机、电脑、智能汽车、智能家居、智能机器人、手表、眼睛，都可以是一个端系统(<em>end system</em>)，或者说一个主机(<em>host</em>)</li><li><strong>分组交换机</strong>：分组交换机分为路由器和链路层交换机，链路层交换机主要在链路层工作；路由器主要是在网络核心工作，这两种交换机的作用主要就是将<strong>分组</strong>从一条通信链路转发到另一条通信链路去。</li><li><strong>因特网服务提供商</strong>：端系统通过因特网服务提供商(<em>Internet Service Provider, ISP</em>)来接入因特网。包括本地有线或者电话公司的本地ISP，公司ISP，学校ISP</li><li>因特网<strong>协议</strong>：因特网运行很多协议，包括TCP/IP</li><li><strong>因特网标准</strong>：由IETF($InternetEngineeringTaskForce$)，即因特网工程任务组制定，制定出来的标准文档叫做请求评论(<em>Request for Comment, RFC</em>)</li></ul><hr><p>除了最开始总体的因特网概念，我们还可以通过因特网组成的视角来认识因特网。</p><h3 id="Internet-Component-View"><a href="#Internet-Component-View" class="headerlink" title="Internet - Component View"></a>Internet - Component View</h3><ul><li>数以百亿计的主机或者说是端系统</li><li>通信链路</li><li>路由器</li></ul><h3 id="Internet-Service-View"><a href="#Internet-Service-View" class="headerlink" title="Internet - Service View"></a>Internet - Service View</h3><p>除了构建因特网的组件，我们也可以从另一个角度来看待因特网，即从为<strong>应用程序提供服务的基础设施</strong>的角度来描述因特网。因特网中如手机、电脑、平板中运行的电子游戏、办公软件、视频音频软件等等都需要将信息从不同的端系统之间流动起来，所以说这些软件被称为<strong>分布式应用</strong>。</p><p>更进一步的，假如说你有一个非常好的想法去做一款非常厉害的软件，这个软件当然是运行在啊端系统上的，你讲他在本地开发好后，你马上就要面临一个问题：<strong>我该如何指挥因特网将信息从一个端系统发送到指定的端系统上呢？</strong></p><p>为了解决这个问题，因特网中的端系统有一个东西叫做<strong>套接字接口</strong>，这个套接字接口提供了运行在一个端系统上的程序向其他端系统发送信息分组时所要遵循的程序交付数据的方式。只有遵循同一套数据包装规则的系统之间才能互相发送，互相接收，互相理解，互相通信。</p><p>因此，总结的说，本部分的内容可以概括为因特网可以视为是提供服务的基础设施，因特网为运行在端系统上的各类分布式应用赋能，并为他们提供了可靠交付、延时保证等等服务。在后面的章节中会具体展开。</p><hr><h3 id="什么是协议"><a href="#什么是协议" class="headerlink" title="什么是协议"></a>什么是协议</h3><p>上面提到过因特网运行TCP/IP等协议，所以到底什么是协议，在因特网中协议起到什么作用。</p><p>对于协议的理解可以通过人类之间的相互问答为类比，假如一个人想要跟别人说话，那么一个有礼貌的人显然会先跟那个人打招呼，并且询问他愿不愿意与他对话。放在计算机的世界里也是类似的，一个端系统想要向另一个端系统发送信息，我们不能将信息直接发送出去，而是要先向另一个端系统询问，得到答复后再正式传输信息，而因特网协议正是规范这一过程的标准。</p><p>更学术的描述协议就是：<strong>协议定义了两个或多个通信实体之间交换的报文的格式和顺序，以及报文的发送/接收或其他事件所采取的操作。</strong></p><h2 id="如何接入网"><a href="#如何接入网" class="headerlink" title="如何接入网"></a>如何接入网</h2><h3 id="网络边缘"><a href="#网络边缘" class="headerlink" title="网络边缘"></a>网络边缘</h3><ul><li>端系统=主机</li><li>客户-服务器模型，客户向服务器发送请求，服务器向客户提供服务</li><li>P2P模型，不用或者很小规模地使用集中式服务器，靠不同的端系统之间相互通信，运行程序</li></ul><h3 id="接入网"><a href="#接入网" class="headerlink" title="接入网"></a>接入网</h3><h1 id="网络性能"><a href="#网络性能" class="headerlink" title="网络性能"></a>网络性能</h1><h1 id="协议层和服务模型"><a href="#协议层和服务模型" class="headerlink" title="协议层和服务模型"></a>协议层和服务模型</h1><h1 id="因特网发展历史"><a href="#因特网发展历史" class="headerlink" title="因特网发展历史*"></a>因特网发展历史*</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> Computer Internet </category>
+          
+          <category> Chapte 1 InternetOverall </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Internet_Survey </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>4.1 网络层概述</title>
       <link href="/2025/04/05/ji-suan-ji-wang-luo/chapter-4-network-layer/4.1-wang-luo-ceng-gai-shu/"/>
       <url>/2025/04/05/ji-suan-ji-wang-luo/chapter-4-network-layer/4.1-wang-luo-ceng-gai-shu/</url>

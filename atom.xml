@@ -6,7 +6,7 @@
   <link href="http://yuhe-dev.github.io/atom.xml" rel="self"/>
   
   <link href="http://yuhe-dev.github.io/"/>
-  <updated>2025-04-13T09:45:09.384Z</updated>
+  <updated>2025-05-25T12:42:17.149Z</updated>
   <id>http://yuhe-dev.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Computer and Internet</title>
+    <link href="http://yuhe-dev.github.io/2025/05/25/computer-and-internet/"/>
+    <id>http://yuhe-dev.github.io/2025/05/25/computer-and-internet/</id>
+    <published>2025-05-25T12:01:41.000Z</published>
+    <updated>2025-05-25T12:42:17.149Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;基本的概念和问题的解答&quot;&gt;&lt;a href=&quot;#基本的概念和问题的解答&quot; class=&quot;headerlink&quot; title=&quot;基本的概念和问题的解答&quot;&gt;&lt;/a&gt;基本的概念和问题的解答&lt;/h1&gt;&lt;h2 id=&quot;什么是因特网&quot;&gt;&lt;a href=&quot;#什么是因特网&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Computer Internet" scheme="http://yuhe-dev.github.io/categories/Computer-Internet/"/>
+    
+    <category term="Chapte 1 InternetOverall" scheme="http://yuhe-dev.github.io/categories/Computer-Internet/Chapte-1-InternetOverall/"/>
+    
+    
+    <category term="Internet_Survey" scheme="http://yuhe-dev.github.io/tags/Internet-Survey/"/>
+    
+  </entry>
   
   <entry>
     <title>4.1 网络层概述</title>
