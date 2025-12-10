@@ -74,12 +74,12 @@ _ESSR is a cognitive-inspired continual learning framework that models LLM memor
 
 # 🎖 Selected Honors and Awards
 
-- _2025.11_ Nanjing University People’s Scholarship. (¥2000)
+- _2025.11_ Nanjing University People’s Scholarship.
 - _2025.05_ Meritorious Winner (International Second Prize), MCM/ICM (**Top ~7%** teams worldwide).
 
 # 📖 Educations
 
-- _2023.09 - 2025.12 (now)_, Software and Engineering, School of Intelligent Software and Engineering, Nanjing University.
+- _2023.09 - now_, Software and Engineering, School of Intelligent Software and Engineering, Nanjing University.
 
 <!-- # 💬 Invited Talks
 
@@ -88,4 +88,4 @@ _ESSR is a cognitive-inspired continual learning framework that models LLM memor
 
 # 💻 Internships
 
-- _2025.03 - 2025.12 (now)_, Research Intern, _iMATE Lab_ advised by _Prof. Ke Xu_, Nanjing University.
+- _2025.03 - now_, Research Intern, _iMATE Lab_ advised by _Prof. Ke Xu_, Nanjing University.
