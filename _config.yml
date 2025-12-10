@@ -22,7 +22,7 @@ baidu_site_verification: # get baidu_site_verification from https://ziyuan.baidu
 # Site Author
 author:
   name: "Yu He"
-  avatar: "images/avatar.jpg"
+  avatar: "images/avatar.png"
   bio: "Nanjing University of Intelligent Software and Engineering."
   location: "Suzhou, China"
   employer:
