@@ -24,10 +24,13 @@ My research interest lies, broadly, in **Big-Data Intelligence Analytics**, **Vi
 - Building interactive and visually guided AI systems for exploring complex networks and multimodal data.
 - Evaluating and selecting data through interactive interfaces to better understand the trade-offs between generalization and robustness in machine learning models.
 
+I'm actively seeking potential research internship opportunity in the US. I'm also open to _Research Collaborations_! If my background aligns with your interests or if you have positions for **Summer Research Intern 2026** or any interesting topics, I would be very happy to connect. Feel free to reach out to me, let's go together to make impossible possible and possible easy!
+
 # 🔥 News
 
 - _2025.10_: 🎉🎉 One collaborative paper on **Continual Learning** and LLM catastrophic forgetting mitigation has been submitted to _ARR_, targeting _ACL 2026_. Grateful to all collaborators!
 - _2025.09_: 🎉🎉 Two collaborative papers on **Data Exploration** and **Data Narrative Generation** have been submitted to _CHI 2026_. Many thanks to my wonderful collaborators!
+- _2025.03_: 🎉🎉 I start my journey in NJU as an research intern!
 
 # 📝 Publications
 
