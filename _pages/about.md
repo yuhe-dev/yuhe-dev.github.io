@@ -34,36 +34,58 @@ I'm actively seeking potential research internship opportunity in the United Sta
 
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CHI 2026 (Under Review)</div><img src='images/networkcanvas.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+NetworkCanvas: Supporting Progressive Network Visualization Exploration via
+Adaptive Recommendations
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+Wenchao Li, Yuewen Gao, **Yu He**, Cong Zhu, Ke Xu
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+_NetworkCanvas is an adaptive, AI-assisted exploration system for complex networks. It combines interactive visualization, recommendation guidance, and a traceable exploration history tree to support progressive, explainable network analysis._
 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CHI 2026 (Under Review)</div><img src='images/newstract.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-# 🎖 Honors and Awards
+Multimodal Analysis of News Videos: Event-based Visual Summarization
+over Serial Broadcasts
 
-- _2021.10_ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
-- _2021.09_ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
+Yuewen Gao, **Yu He**, Xianglei Lv, Yingying Dong, Ke Xu
+
+_NewsTract is a multimodal news intelligence system that segments video news into atomic events, extracts key semantic signals, and models event relations. It provides an interactive visualization interface for exploring complex news narratives and uncovering hidden event connections._
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ARR (Under Review)</div><img src='images/essr.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+ESSR: Ebbinghaus Sampler and Scheduler Brought LLM’s Memory Back
+
+Yiyang Lu, **Yu He**, Jie Wang, Lin Yang, Hanzhu Chen, Jianye Hao
+
+_ESSR is a cognitive-inspired continual learning framework that models LLM memory strength based on a survival-form forgetting curve. By scheduling adaptive replay for vulnerable samples, ESSR effectively mitigates catastrophic forgetting in online fine-tuning scenarios._
+
+</div>
+</div>
+
+# 🎖 Selected Honors and Awards
+
+- _2025.11_ Nanjing University People’s Scholarship. (¥2000)
+- _2025.05_ Meritorious Winner (International Second Prize), MCM/ICM (**Top ~7%** teams worldwide).
 
 # 📖 Educations
 
-- _2019.06 - 2022.04 (now)_, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
-- _2015.09 - 2019.06_, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
+- _2023.09 - 205.12 (now)_, Software and Engineering, School of Intelligent Software and Engineering, Nanjing University.
 
-# 💬 Invited Talks
+<!-- # 💬 Invited Talks
 
 - _2021.06_, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
-- _2021.03_, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. \| [\[video\]](https://github.com/)
+- _2021.03_, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
 
-- _2019.05 - 2020.02_, [Lorem](https://github.com/), China.
+- _2023.03 - 2025.12 (now)_, Research Intern, _iMATE Lab_ advised by _Prof. Ke Xu_, Nanjing University.
