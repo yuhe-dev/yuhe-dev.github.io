@@ -79,7 +79,7 @@ _ESSR is a cognitive-inspired continual learning framework that models LLM memor
 
 # 📖 Educations
 
-- _2023.09 - 205.12 (now)_, Software and Engineering, School of Intelligent Software and Engineering, Nanjing University.
+- _2023.09 - 2025.12 (now)_, Software and Engineering, School of Intelligent Software and Engineering, Nanjing University.
 
 <!-- # 💬 Invited Talks
 
