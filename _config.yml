@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title: "Lorem ipsum"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. "
+title: "Yu He"
+description: "Stay curious. Move steadily. Build something that lasts"
 repository: "yuhe-dev/yuhe-dev.github.io"
 google_scholar_stats_use_cdn: true
 
@@ -23,11 +23,11 @@ baidu_site_verification: # get baidu_site_verification from https://ziyuan.baidu
 author:
   name: "Yu He"
   avatar: "images/android-chrome-512x512.png"
-  bio: "Nanjing University of School of Intelligent Software and Engineering."
+  bio: "Nanjing University of Intelligent Software and Engineering."
   location: "Suzhou, China"
   employer:
   pubmed:
-  googlescholar: "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
+  googlescholar:
   email: "yu_he@smail.nju.edu.cn"
   researchgate: # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri:
@@ -43,7 +43,7 @@ author:
   instagram:
   impactstory: # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm:
-  linkedin: # e.g., "linkedin username"
+  linkedin: "linkedin.com/in/yu-he-5a573b391"
   dblp: # e.g., "https://dblp.org/pid/xx/xxxx.html"
   orcid: # e.g., "https://orcid.org/xxxx"
   pinterest:
