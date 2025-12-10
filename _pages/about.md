@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, Nice to meet you! My name is **Yu He**. I'm currently an _third-year_ undergraduate student at School of Intelligent Software and Engineering, <a href='nju.edu.cn'>Nanjing University (NJU)</a>. I'm fortunate to be advised by <a href='https://lukexuke.github.io/'>Prof. Ke Xu</a>, and to collaborate closely with <a href='https://wenchao.li/#about_me'>Dr. Wenchao Li</a>. My time working with them has been both memorable and formative for my research journey.
+Hi, Nice to meet you! My name is **Yu He**. I'm currently a _third-year_ undergraduate student at School of Intelligent Software and Engineering, <a href='nju.edu.cn'>Nanjing University (NJU)</a>. I'm fortunate to be advised by <a href='https://lukexuke.github.io/'>Prof. Ke Xu</a>, and to collaborate closely with <a href='https://wenchao.li/#about_me'>Dr. Wenchao Li</a>. My time working with them has been both memorable and formative for my research journey.
 
 My research interest lies, broadly, in **Big-Data Intelligence Analytics**, **Visualization**,**Human Computer Interaction with AI**. More specifically, I am interested in:
 
