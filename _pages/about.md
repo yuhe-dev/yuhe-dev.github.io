@@ -88,4 +88,4 @@ _ESSR is a cognitive-inspired continual learning framework that models LLM memor
 
 # 💻 Internships
 
-- _2023.03 - 2025.12 (now)_, Research Intern, _iMATE Lab_ advised by _Prof. Ke Xu_, Nanjing University.
+- _2025.03 - 2025.12 (now)_, Research Intern, _iMATE Lab_ advised by _Prof. Ke Xu_, Nanjing University.
