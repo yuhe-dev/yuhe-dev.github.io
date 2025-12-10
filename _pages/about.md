@@ -26,8 +26,8 @@ My research interest lies, broadly, in **Big-Data Intelligence Analytics**, **Vi
 
 # 🔥 News
 
-- _2022.02_: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
-- _2022.02_: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
+- _2025.10_: 🎉🎉 One collaborative paper on **Continual Learning** and LLM catastrophic forgetting mitigation has been submitted to _ARR_, targeting _ACL 2026_. Grateful to all collaborators!
+- _2025.09_: 🎉🎉 Two collaborative papers on **Data Exploration** and **Data Narrative Generation** have been submitted to _CHI 2026_. Many thanks to my wonderful collaborators!
 
 # 📝 Publications
 
