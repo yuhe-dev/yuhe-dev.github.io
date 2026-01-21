@@ -34,7 +34,7 @@ I'm actively seeking potential research internship opportunity in the United Sta
 
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CHI 2026 (Under Review)</div><img src='images/networkcanvas.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CHI 2026 (Conditionally Accepted)</div><img src='images/networkcanvas.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 NetworkCanvas: Supporting Progressive Network Visualization Exploration via
@@ -47,7 +47,7 @@ _NetworkCanvas is an adaptive, AI-assisted exploration system for complex networ
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CHI 2026 (Under Review)</div><img src='images/newstract.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">DIS 2026 (Under Review)</div><img src='images/newstract.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 Multimodal Analysis of News Videos: Event-based Visual Summarization
@@ -60,7 +60,7 @@ _NewsTract is a multimodal news intelligence system that segments video news int
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ARR (Under Review)</div><img src='images/essr.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML (Under Review)</div><img src='images/essr.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 ESSR: Ebbinghaus Sampler and Scheduler Brought LLM’s Memory Back
