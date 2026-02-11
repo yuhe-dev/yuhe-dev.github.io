@@ -28,8 +28,8 @@ I'm actively seeking potential research internship opportunity in the United Sta
 
 # 🔥 News
 
-- _2025.10_: 🎉🎉 One collaborative paper on **Continual Learning** and LLM catastrophic forgetting mitigation has been submitted to _ARR_, targeting _ACL 2026_. Grateful to all collaborators!
-- _2025.09_: 🎉🎉 Two collaborative papers on **Data Exploration** and **Data Narrative Generation** have been submitted to _CHI 2026_. Many thanks to my wonderful collaborators!
+- _2026.1_: 🎉🎉 Our collaborative work **NetworkCanvas** has been _conditionally accepted_ by **[CHI 2026](https://chi2026.acm.org/)**. We also submitted two papers on **LLM continual learning** and **visualization for multimodal understanding** to **[ICML 2026](https://icml.cc/)** and **[DIS 2026](https://dis.acm.org/2026/)**, respectively. Many thanks to all collaborators!
+- _2025.09_: 🎉🎉 One collaborative papers on **Data Exploration** and **Data Narrative Generation** have been submitted to **[CHI 2026](https://chi2026.acm.org/)**. Many thanks to my wonderful collaborators!
 - _2025.03_: 🎉🎉 I start my journey in NJU as an research intern!
 
 # 📝 Publications
@@ -60,14 +60,14 @@ _NewsTract is a multimodal news intelligence system that segments video news int
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML (Under Review)</div><img src='images/essr.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026 (Under Review)</div><img src='images/mssr.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-ESSR: Ebbinghaus Sampler and Scheduler Brought LLM’s Memory Back
+MSSR: Modeling Memory Decay for Adaptive Replay in Continual LLM Fine-Tuning
 
-Yiyang Lu, **Yu He**, Jie Wang, Lin Yang, Hanzhu Chen, Jianye Hao
+Yiyang Lu, **Yu He**, Jianlong Chen, Hongyuan Zha
 
-_ESSR is a cognitive-inspired continual learning framework that models LLM memory strength based on a survival-form forgetting curve. By scheduling adaptive replay for vulnerable samples, ESSR effectively mitigates catastrophic forgetting in online fine-tuning scenarios._
+_MSSR is a cognitive-inspired continual learning framework that models LLM memory strength based on a survival-form forgetting curve. By scheduling adaptive replay for vulnerable samples, MSSR effectively mitigates catastrophic forgetting in online fine-tuning scenarios._
 
 </div>
 </div>
