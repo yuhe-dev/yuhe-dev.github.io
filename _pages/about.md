@@ -31,9 +31,9 @@ I'm actively seeking potential research internship opportunity in the United Sta
 
 # 🔥 News
 
-- _2026.1_: 🎉🎉 Our collaborative work **NetworkCanvas** has been _conditionally accepted_ by **[CHI 2026](https://chi2026.acm.org/)**. We also submitted two papers on **LLM continual learning** and **visualization for multimodal understanding** to **[ICML 2026](https://icml.cc/)** and **[DIS 2026](https://dis.acm.org/2026/)**, respectively. Many thanks to all collaborators!
+- _2026.01_: 🎉🎉 Our collaborative work **NetworkCanvas** has been _conditionally accepted_ by **[CHI 2026](https://chi2026.acm.org/)**. We also submitted two papers on **LLM continual learning** and **visualization for multimodal understanding** to **[ICML 2026](https://icml.cc/)** and **[DIS 2026](https://dis.acm.org/2026/)**, respectively. Many thanks to all collaborators!
 - _2025.09_: 🎉🎉 One collaborative papers on **Data Exploration** and **Data Narrative Generation** have been submitted to **[CHI 2026](https://chi2026.acm.org/)**. Many thanks to my wonderful collaborators!
-- _2025.03_: 🎉🎉 I start my journey in NJU as an research intern!
+- _2025.03_: 🎉🎉 I start my journey in NJU iMATE Lab as a research intern!
 
 # 📝 Publications
 
