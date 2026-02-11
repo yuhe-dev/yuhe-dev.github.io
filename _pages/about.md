@@ -19,10 +19,11 @@ redirect_from:
 
 Hi, Nice to meet you! My name is **Yu He**. I'm currently a _third-year_ undergraduate student at School of Intelligent Software and Engineering, <a href='nju.edu.cn'>Nanjing University (NJU)</a>. I'm fortunate to be advised by <a href='https://lukexuke.github.io/'>Prof. Ke Xu</a>, and to collaborate closely with <a href='https://wenchao.li/#about_me'>Dr. Wenchao Li</a>. My time working with them has been both memorable and formative for my research journey.
 
-My research interest lies, broadly, in **Big-Data Intelligence Analytics**, **Visualization**,**Human Computer Interaction with AI**. More specifically, I am interested in:
+My research interests lie at the intersection of **Data-centric AI**, **Interactive Visualization**, and **Human-AI Interaction**. _I study how interaction can turn data into a steering wheel for reliable AI--improving models through explainable, iterative data decisions._ More specifically, I am interested in:
 
-- Building interactive and visually guided AI systems for exploring complex networks and multimodal data.
-- Evaluating and selecting data through interactive interfaces to better understand the trade-offs between generalization and robustness in machine learning models.
+- **Interactive data-centric workflows for model improvement:** designing explainable, human-in-the-loop interfaces that support **data diagnosis** to iteratively enhance model performance.
+- **Visual sensemaking for complex structures:** building visually guided systems that help users explore **structrued relational data** (_e.g._, networks) as well as **unstructured / multimodal data** (_e.g._, text, images, videos) to surface potential patterns and actionable insights.
+- **Reliability over distribution shift and time:** studying how **data decisions** and **time-aware learning** affect robust generalization, and developing methods that make these trade-offs **measurable** and **controllable**.
 
 I'm actively seeking potential research internship opportunity in the United States, Mainland China and Hong Kong. I'm also open to _Research Collaborations_! If my background aligns with your interests or if you have positions for **Summer Research Intern 2026** or any interesting topics, I would be very happy to connect. Feel free to reach out to me, let's go together to **Make the Impossible Possible and the Possible Easy.**
 
