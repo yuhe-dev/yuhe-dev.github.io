@@ -37,7 +37,7 @@ I'm actively seeking potential research internship opportunity in the United Sta
 
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CHI 2026 (Conditionally Accepted)</div><img src='images/networkcanvas.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CHI 2026</div><img src='images/networkcanvas.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 NetworkCanvas: Supporting Progressive Network Visualization Exploration via
