@@ -63,7 +63,7 @@ _NewsTract is a multimodal news intelligence system that segments video news int
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026 (Under Review)</div><img src='images/mssr.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/mssr.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 MSSR: Modeling Memory Decay for Adaptive Replay in Continual LLM Fine-Tuning
