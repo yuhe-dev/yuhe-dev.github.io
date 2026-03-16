@@ -63,12 +63,14 @@ _NewsTract is a multimodal news intelligence system that segments video news int
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/mssr.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/mssr.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-MSSR: Modeling Memory Decay for Adaptive Replay in Continual LLM Fine-Tuning
+MSSR: Memory-Aware Adaptive Replay for Continual LLM Fine-Tuning
 
 Yiyang Lu, **Yu He**, Jianlong Chen, Hongyuan Zha
+
+[\[arXiv\]](https://arxiv.org/abs/2603.09892) [\[pdf\]](https://arxiv.org/pdf/2603.09892)
 
 _MSSR is a cognitive-inspired continual learning framework that models LLM memory strength based on a survival-form forgetting curve. By scheduling adaptive replay for vulnerable samples, MSSR effectively mitigates catastrophic forgetting in online fine-tuning scenarios._
 

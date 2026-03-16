@@ -27,7 +27,7 @@ author:
   location: "Suzhou, China"
   employer:
   pubmed:
-  googlescholar:
+  googlescholar: "https://scholar.google.com.tw/citations?hl=zh-CN&user=6W2mN4UAAAAJ"
   email: "yu_he@smail.nju.edu.cn"
   researchgate: # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri:
@@ -43,7 +43,7 @@ author:
   instagram:
   impactstory: # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm:
-  linkedin: "linkedin.com/in/yu-he-5a573b391"
+  linkedin: "www.linkedin.com/in/yu-he-5a573b391"
   cv: "/files/cv.pdf"
   dblp: # e.g., "https://dblp.org/pid/xx/xxxx.html"
   orcid: # e.g., "https://orcid.org/xxxx"
