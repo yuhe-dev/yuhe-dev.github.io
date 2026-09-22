@@ -106,9 +106,9 @@
     html{scroll-padding-top:80px}
     .nav-slot{position:absolute;right:0;top:var(--space-4);height:44px}
     .nav-slot .top-nav{position:static;margin:0}
-    .nav-slot .top-nav.is-docked{position:fixed;top:12px;right:max(24px,calc((100vw - 960px)/2));z-index:20;padding:2px 16px;background:var(--paper);border:1px solid var(--line);border-radius:4px;box-shadow:0 3px 12px #242b320a}
-    @media(max-width:760px){.nav-slot{position:static;margin-top:var(--space-4)}.nav-slot .top-nav.is-docked{left:24px;right:auto}}
-    @media(max-width:640px){.nav-slot{margin-top:var(--space-3)}.nav-slot .top-nav.is-docked{left:20px;right:20px;justify-content:space-between;gap:12px;padding-inline:12px}}
+    .nav-slot .top-nav.is-docked{position:fixed;top:0;left:0;right:0;z-index:20;height:49px;padding:2px max(24px,calc((100% - 960px)/2));justify-content:flex-end;background:var(--paper);border:0;border-bottom:1px solid var(--line);border-radius:0;box-shadow:none}
+    @media(max-width:760px){.nav-slot{position:static;margin-top:var(--space-4)}.nav-slot .top-nav.is-docked{justify-content:flex-start}}
+    @media(max-width:640px){.nav-slot{margin-top:var(--space-3)}.nav-slot .top-nav.is-docked{justify-content:space-between;gap:12px;padding-inline:20px}}
     @media print{.section>h2::after{display:none}body{background:var(--surface);font-size:11pt}.page{width:100%;padding:0}.top-nav,.skip{display:none}.section{padding-top:24px}.paper,.research-row,.news-row{break-inside:avoid}.profile-link::after{display:none}.figure-link{max-width:160px}h1{font-size:64px}h2{font-size:30px}}
   </style>
 </head>
