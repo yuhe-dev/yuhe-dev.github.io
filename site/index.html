@@ -47,7 +47,7 @@
     }
     @media(prefers-reduced-motion:no-preference){
       .section>h2.stroke-pending::after{transform:rotate(-2deg) scaleX(0)}
-      .section>h2.stroke-drawn::after{animation:notebook-stroke 350ms var(--ease) both}
+      .section>h2.stroke-drawn::after{animation:notebook-stroke 240ms var(--ease) both}
     }
     @keyframes notebook-stroke{from{transform:rotate(-2deg) scaleX(0)}to{transform:rotate(-2deg) scaleX(1)}}
     @media(max-width:760px){.top-nav{position:static;margin-top:var(--space-4);gap:var(--space-6)}h1{font-size:88px}.bio{grid-template-columns:112px minmax(0,1fr);gap:var(--space-6)}.portrait{width:112px;height:112px}}
@@ -89,6 +89,26 @@
     #research .paper-resources a{min-height:30px}
     @media(max-width:800px) and (min-width:701px){#research .paper{column-gap:20px;padding-inline:18px}}
     @media(max-width:700px){#research .paper,#research .paper:first-of-type{grid-template-columns:1fr;padding:0 14px 14px;margin-inline:-6px;row-gap:14px}#research .paper-meta{position:static;grid-column:1;grid-row:1;margin:0 -15px;min-height:27px}#research .paper-copy{grid-column:1;grid-row:3}#research .paper h3{font-size:18px}#research .paper-thumbnail,#research .project-figure{grid-column:1;grid-row:2;padding:0;width:100%}#research .paper-resources a{min-height:36px}#research .authors{margin-bottom:10px}}
+    /* Quiet pointer and keyboard feedback; no layout movement. */
+    .paper-resources a,.profile-link,.top-nav a{position:relative}
+    .paper-resources a::before,.profile-link::before,.top-nav a::before{content:"";position:absolute;left:0;right:0;bottom:3px;height:1px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform 180ms var(--ease);pointer-events:none}
+    .profile-link::before{left:6px;right:6px}
+    .top-nav a::before{bottom:5px;height:3px;background:var(--highlight-edge);border-radius:45% 20% 40% 25%}
+    .top-nav a[aria-current="location"]{color:var(--ink)}
+    .top-nav a[aria-current="location"]::before{transform:scaleX(1) rotate(-2deg)}
+    .paper-resources a span{transition:transform 180ms var(--ease)}
+    .paper-resources a:focus-visible,.paper-resources a:hover,.top-nav a:hover{text-decoration:none}
+    .paper-resources a:focus-visible::before,.profile-link:focus-visible::before,.top-nav a:focus-visible::before{transform:scaleX(1)}
+    .paper-resources a:focus-visible span{transform:translate(2px,-2px)}
+    @media(hover:hover) and (pointer:fine){.paper-resources a:hover::before,.profile-link:hover::before,.top-nav a:hover::before{transform:scaleX(1)}.paper-resources a:hover span{transform:translate(2px,-2px)}}
+    @media(prefers-reduced-motion:reduce){.paper-resources a span{transform:none!important}}
+    /* The slot keeps the header stable while the same navigation docks. */
+    html{scroll-padding-top:80px}
+    .nav-slot{position:absolute;right:0;top:var(--space-4);height:44px}
+    .nav-slot .top-nav{position:static;margin:0}
+    .nav-slot .top-nav.is-docked{position:fixed;top:12px;right:max(24px,calc((100vw - 960px)/2));z-index:20;padding:2px 16px;background:var(--paper);border:1px solid var(--line);border-radius:4px;box-shadow:0 3px 12px #242b320a}
+    @media(max-width:760px){.nav-slot{position:static;margin-top:var(--space-4)}.nav-slot .top-nav.is-docked{left:24px;right:auto}}
+    @media(max-width:640px){.nav-slot{margin-top:var(--space-3)}.nav-slot .top-nav.is-docked{left:20px;right:20px;justify-content:space-between;gap:12px;padding-inline:12px}}
     @media print{.section>h2::after{display:none}body{background:var(--surface);font-size:11pt}.page{width:100%;padding:0}.top-nav,.skip{display:none}.section{padding-top:24px}.paper,.research-row,.news-row{break-inside:avoid}.profile-link::after{display:none}.figure-link{max-width:160px}h1{font-size:64px}h2{font-size:30px}}
   </style>
 </head>
@@ -106,7 +126,7 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
   <header class="page-header" id="about">
     <span id="about-me" class="anchor-alias" aria-hidden="true"></span>
     <div class="name-line"><h1>Yu He</h1><span class="chinese-name" lang="zh-CN">赫宇</span></div>
-    <nav class="top-nav" aria-label="On this page"><a href="#news">News</a><a href="#research">Research</a><a href="#background">Background</a></nav>
+    <div class="nav-slot"><nav class="top-nav" aria-label="On this page"><a href="#news">News</a><a href="#research">Research</a><a href="#background">Background</a></nav></div>
   </header>
   <main id="main" tabindex="-1">
     <div class="bio">
