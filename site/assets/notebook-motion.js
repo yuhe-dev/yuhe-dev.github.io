@@ -4,12 +4,13 @@
   const sections = links.map(link => document.getElementById(link.hash.slice(1)));
   const navigation = document.querySelector('.top-nav');
   const navigationSlot = document.querySelector('.nav-slot');
+  const desktopNavigation = window.matchMedia('(min-width: 1000px)');
   let scheduled = false;
   const updateCurrentSection = () => {
     scheduled = false;
-    navigation?.classList.toggle('is-docked', navigationSlot?.getBoundingClientRect().top <= 12);
+    navigation?.classList.toggle('is-docked', !desktopNavigation.matches && navigationSlot?.getBoundingClientRect().top <= 12);
     const readingLine = Math.min(160, window.innerHeight * 0.25);
-    let current = -1;
+    let current = 0;
     sections.forEach((section, index) => {
       if (section && section.getBoundingClientRect().top <= readingLine) current = index;
     });
