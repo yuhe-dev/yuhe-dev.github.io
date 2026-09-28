@@ -1,0 +1,7 @@
+.research-interests .interest-keyword { color:#a33d43; font-weight:600; }
+@media screen {
+  [data-theme="dark"] .research-interests .interest-keyword { color:#f0a0a4; }
+}
+@media print {
+  .research-interests .interest-keyword { color:inherit; }
+}
