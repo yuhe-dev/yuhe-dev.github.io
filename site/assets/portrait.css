@@ -1,0 +1,7 @@
+/* Preserve the approved 4:5 portrait framing at every screen size. */
+.bio { grid-template-columns:192px minmax(0,1fr); }
+.portrait { width:192px; height:240px; border-radius:12px; object-fit:contain; object-position:center; border-width:1px; }
+@media (max-width:640px) {
+  .bio { grid-template-columns:112px minmax(0,1fr); }
+  .portrait { width:112px; height:140px; border-radius:8px; }
+}
