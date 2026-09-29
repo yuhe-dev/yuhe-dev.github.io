@@ -1,0 +1,10 @@
+@font-face { font-family:'Linux Libertine'; src:url('fonts/chi/libertine-regular.woff2') format('woff2'); font-style:normal; font-weight:400; font-display:swap; }
+@font-face { font-family:'Linux Libertine'; src:url('fonts/chi/libertine-bold.woff2') format('woff2'); font-style:normal; font-weight:700; font-display:swap; }
+@font-face { font-family:'Linux Libertine'; src:url('fonts/chi/libertine-italic.woff2') format('woff2'); font-style:italic; font-weight:400; font-display:swap; }
+@font-face { font-family:'Linux Libertine'; src:url('fonts/chi/libertine-bold-italic.woff2') format('woff2'); font-style:italic; font-weight:700; font-display:swap; }
+@font-face { font-family:'Linux Biolinum'; src:url('fonts/chi/biolinum-regular.woff2') format('woff2'); font-style:normal; font-weight:400; font-display:swap; }
+@font-face { font-family:'Linux Biolinum'; src:url('fonts/chi/biolinum-bold.woff2') format('woff2'); font-style:normal; font-weight:700; font-display:swap; }
+:root { --prose:'Linux Libertine',Georgia,serif; --sans:'Linux Biolinum','Source Sans 3',sans-serif; }
+body { font-family:var(--prose); }
+#research .paper h3,.research-interests li h3,.research-interests li>strong,.experience-title { font-family:var(--sans); font-weight:700; }
+.identity,.research-lead,.research-context,.research-interests,.collaborations,.opportunity,.paper-highlights,.paper-summary,.paper-detail p,.authors,.news-row,.experience-row p,.honors { font-family:var(--prose); }
