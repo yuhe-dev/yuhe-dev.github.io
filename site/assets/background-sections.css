@@ -1,0 +1,20 @@
+.background-section .experience-row { padding:14px 0; }
+.background-section .experience-row p { font-size:15px; line-height:1.55; }
+.background-section .experience-title { font-size:17px; }
+#honors { padding-bottom:24px; }
+@media screen and (min-width:1000px) {
+  .nav-slot .top-nav, .nav-slot .top-nav.is-docked { font-size:18px; gap:10px; }
+  .top-nav a { min-height:48px; }
+}
+@media screen and (max-width:640px) {
+  html { scroll-padding-top:108px; }
+  .nav-slot { height:88px; }
+  .nav-slot .top-nav, .nav-slot .top-nav.is-docked {
+    display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:0 8px;
+    position:relative; padding:0 48px 0 0; height:88px; align-items:center; font-size:14px;
+  }
+  .nav-slot .top-nav.is-docked { position:fixed; padding:0 68px 0 20px; width:auto; }
+  .top-nav .theme-toggle { position:absolute; right:0; top:22px; }
+  .top-nav.is-docked .theme-toggle { right:16px; }
+  .nav-slot .top-nav a { min-height:44px; width:fit-content; }
+}
