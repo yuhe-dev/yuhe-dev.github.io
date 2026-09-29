@@ -1,0 +1,7 @@
+/* Visible, parallel contribution and evidence points. */
+#research .paper-highlights { font:400 18px/1.5 var(--prose); list-style:disc; padding-left:1.1em; margin:9px 0 8px; }
+#research .paper-highlights li { padding-left:2px; margin:0 0 7px; }
+#research .paper-highlights li:last-child { margin-bottom:0; }
+#research .paper-highlights strong { font-weight:600; }
+body[data-comic="full"] #research .paper-highlights { font-family:var(--comic); font-size:17px; line-height:1.65; }
+@media(max-width:640px) { #research .paper-highlights { font-size:17px; } }
