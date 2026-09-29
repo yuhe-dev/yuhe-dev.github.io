@@ -5,3 +5,25 @@
 @media print {
   .research-interests .interest-keyword { color:inherit; }
 }
+
+/* Keep the published research-interest section aligned with the local design. */
+.research-interests .interest-label { font:700 36px/1.2 var(--hand); color:var(--ink); margin:0 0 18px; }
+.research-interests ul { margin:0 0 16px; }
+.research-interests li { font-size:18px; line-height:1.5; border-top:2px solid var(--direction); padding-top:12px; }
+.research-interests li h3 { font:700 22px/1.3 var(--sans); color:var(--direction); margin:0 0 10px; text-wrap:pretty; }
+.direction-data { --direction:#315574; }
+.direction-agents { --direction:#38674e; }
+.direction-human { --direction:#885a2d; }
+.research-interests > p:last-child { font-size:16px; }
+@media screen {
+  [data-theme="dark"] .direction-data { --direction:#a9cde8; }
+  [data-theme="dark"] .direction-agents { --direction:#a7cfb2; }
+  [data-theme="dark"] .direction-human { --direction:#e2bb8b; }
+}
+@media screen and (min-width:1000px) { .research-interests ul { gap:30px; } }
+@media(max-width:640px) {
+  .research-interests ul { gap:18px; }
+  .research-interests li { font-size:17px; }
+  .research-interests li h3 { font-size:21px; margin-bottom:8px; }
+  .research-interests .interest-label { font-size:32px; margin-bottom:16px; }
+}
