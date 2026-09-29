@@ -27,3 +27,7 @@
   .research-interests li h3 { font-size:21px; margin-bottom:8px; }
   .research-interests .interest-label { font-size:32px; margin-bottom:16px; }
 }
+
+.research-interests li h3 { display:flex; align-items:flex-start; gap:9px; }
+.research-interests li h3 > span { min-width:0; }
+.direction-icon { flex:0 0 22px; width:22px; height:22px; margin-top:3px; fill:none; stroke:currentColor; stroke-width:1.65; stroke-linecap:round; stroke-linejoin:round; }
