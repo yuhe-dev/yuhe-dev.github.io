@@ -49,3 +49,22 @@
   .project-image-viewer { padding: 80px 12px 24px; }
 }
 @media print { .project-image-viewer { display: none !important; } }
+
+.project-image-viewer-frame { display: contents; }
+/* Show only the original QR pixels and a white quiet zone. */
+.project-image-viewer-wechat .project-image-viewer-frame {
+  display: block;
+  position: relative;
+  width: min(600px, 100%, calc(100dvh - 112px));
+  aspect-ratio: 1;
+  overflow: hidden;
+  background: white;
+}
+.project-image-viewer-wechat img {
+  position: absolute;
+  width: 137.037037%;
+  max-width: none;
+  max-height: none;
+  top: -44.444444%;
+  left: -18.518519%;
+}

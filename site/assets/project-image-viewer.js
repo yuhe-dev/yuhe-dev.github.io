@@ -9,22 +9,23 @@
         <path d="m6 6 12 12M18 6 6 18" />
       </svg>
     </button>
-    <img alt="">
+    <div class="project-image-viewer-frame"><img alt=""></div>
   `;
   document.body.append(viewer);
   const image = viewer.querySelector('img');
   let trigger;
   let previousOverflow;
 
-  document.querySelectorAll('#research a[href]').forEach(link => {
+  document.querySelectorAll('#research a[href], a[data-image-viewer]').forEach(link => {
     if (!/\.(png|jpe?g|webp|gif|svg)(?:[?#]|$)/i.test(link.href)) return;
     link.setAttribute('aria-haspopup', 'dialog');
     link.addEventListener('click', event => {
       if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
       event.preventDefault();
       trigger = link;
+      viewer.classList.toggle('project-image-viewer-wechat', link.classList.contains('profile-link-wechat'));
       const thumbnail = link.querySelector('img') || link.closest('article')?.querySelector('.figure-link img');
-      image.alt = thumbnail?.alt || 'Project figure';
+      image.alt = link.dataset.imageAlt || thumbnail?.alt || 'Project figure';
       image.src = link.href;
       viewer.setAttribute('aria-label', `${image.alt} — enlarged image`);
       previousOverflow = document.documentElement.style.overflow;
