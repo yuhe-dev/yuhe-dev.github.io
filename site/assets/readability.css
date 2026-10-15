@@ -1,7 +1,15 @@
 /* Stronger text contrast while retaining the existing type hierarchy. */
 :root { --ink:#171b20; --muted:#454b53; --plum:#234967; }
 body { -webkit-font-smoothing:auto; }
-.collaborations { width:100%; max-width:none; text-wrap:wrap; }
+.collaborations, .research-interests>p:last-child { width:100%; max-width:none; text-wrap:wrap; }
 @media screen {
   :root[data-theme="dark"] { --ink:#f5f2ed; --muted:#cbd1d8; --plum:#b8daf2; --link:#b8daf2; }
+}
+
+/* Libertine has fine strokes: reinforce reading text on light desktop screens. */
+@media screen and (min-width:1000px) {
+  :root:not([data-theme="dark"]) { --ink:#111418; --muted:#373e46; }
+  :root:not([data-theme="dark"]) :is(.identity,.research-lead,.research-context,.research-interests li,.research-interests>p,.collaborations,.opportunity,.paper-highlights,.authors,.news-row p,.experience-row p,.honors) {
+    -webkit-text-stroke:0.15px currentColor;
+  }
 }
