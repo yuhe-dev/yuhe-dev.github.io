@@ -7,16 +7,16 @@ body { -webkit-font-smoothing:auto; }
   :root[data-theme="dark"] { --ink:#f5f2ed; --muted:#cbd1d8; --plum:#b8daf2; --link:#b8daf2; --selection-bg:#426f98; }
 }
 
-/* Use the real bold font files, with a larger reading scale throughout. */
+/* Comfortable body text, with bold reserved for headings and key phrases. */
 @media screen {
-  body { font-size:20px; font-weight:700; }
+  body { font-size:20px; font-weight:400; }
   .identity, .research-context, .research-interests li,
   .research-interests>p:last-child, .collaborations, .opportunity,
   .news-row p, #research .paper-highlights, .paper-summary,
   .paper-detail p, .paper-description, .research-copy p {
-    font-size:20px; font-weight:700; line-height:1.55;
+    font-size:20px; font-weight:400; line-height:1.55;
   }
-  .research-lead { font-size:20px; font-weight:700; line-height:1.55; }
+  .research-lead { font-size:20px; font-weight:400; line-height:1.55; }
   .research-lead .keyword-data { color:#315574; }
   .research-lead .keyword-agents { color:#38674e; }
   .research-lead .keyword-human { color:#885a2d; }
@@ -35,14 +35,14 @@ body { -webkit-font-smoothing:auto; }
   #research .paper h3 { font-size:23px; font-weight:700; line-height:1.35; }
   .authors, #research .authors, .honors li, .date,
   .affiliation, .contribution, .figure-caption, .section-intro {
-    font-size:18px; font-weight:700; line-height:1.55;
+    font-size:18px; font-weight:400; line-height:1.55;
   }
   #research .paper-meta, #research .paper-meta .venue,
   #research .paper-meta .venue-detail, #research .paper-resources,
   .profile-link, .status-label, summary, .detail-count {
-    font-size:17px; font-weight:700;
+    font-size:17px; font-weight:400;
   }
-  .nav-slot .top-nav, .nav-slot .top-nav.is-docked { font-size:19px; font-weight:700; }
+  .nav-slot .top-nav, .nav-slot .top-nav.is-docked { font-size:19px; font-weight:400; }
   h2, .research-interests .interest-label { font-size:42px; }
   strong, .research-context strong, .paper-highlights strong,
   #research .paper-highlights strong, .paper-summary strong,
@@ -52,7 +52,7 @@ body { -webkit-font-smoothing:auto; }
     grid-template-columns:60px minmax(0,1fr) 180px;
     column-gap:20px; padding:22px 0;
   }
-  .background-section .experience-row p { font-size:20px; font-weight:700; line-height:1.55; }
+  .background-section .experience-row p { font-size:20px; font-weight:400; line-height:1.55; }
   .background-section .experience-title { font-size:24px; line-height:1.3; margin-bottom:8px; }
   .institution-logo { width:60px; height:70px; margin-top:2px; }
   .institution-logo.nju::before { width:52px; height:65px; }
@@ -61,6 +61,7 @@ body { -webkit-font-smoothing:auto; }
   [data-theme="dark"] .institution-logo.hkust { background:transparent; }
   [data-theme="dark"] .institution-logo.hkust img { filter:brightness(1.8) saturate(.75); }
 }
+
 @media screen and (max-width:640px) {
   body { font-size:19px; }
   .identity, .research-context, .research-interests li,
@@ -82,4 +83,30 @@ body { -webkit-font-smoothing:auto; }
   .institution-logo.hkust { width:36px; height:58px; margin-left:6px; }
   .institution-logo.hkust img { width:367px; height:58px; }
   .honors li { grid-template-columns:92px minmax(0,1fr); gap:12px; }
+}
+
+/* Compact project rows: preserve complete figures and all research text. */
+@media screen {
+  #research .paper, #research .paper:first-of-type {
+    grid-template-columns:minmax(0,40fr) minmax(0,60fr);
+    column-gap:24px; padding:18px 20px 12px; margin-bottom:12px;
+  }
+  #research .paper h3 { font-size:21px; line-height:1.25; margin-bottom:5px; }
+  #research .authors { font-size:16px; line-height:1.4; margin-bottom:6px; }
+  #research .paper-highlights { font-size:18px; line-height:1.42; margin:6px 0; }
+  #research .paper-highlights li { margin-bottom:4px; }
+  #research .paper-resources { font-size:16px; padding-top:3px; }
+  #research .paper-meta .venue, #research .paper-meta .venue-detail { font-size:15px; }
+  #research .paper-meta .venue { font-weight:700; }
+  #research .paper-thumbnail, #research .project-figure { padding-top:16px; }
+  #research .figure-link img { width:100%; height:auto; max-height:220px; object-fit:contain; }
+}
+@media screen and (max-width:700px) {
+  #research .paper, #research .paper:first-of-type {
+    grid-template-columns:minmax(0,1fr); padding:0 14px 10px; row-gap:8px;
+  }
+  #research .paper h3 { font-size:20px; }
+  #research .paper-highlights { font-size:18px; }
+  #research .paper-thumbnail, #research .project-figure { padding-top:0; }
+  #research .figure-link img { max-height:200px; }
 }
