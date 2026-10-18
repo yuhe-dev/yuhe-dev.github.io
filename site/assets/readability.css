@@ -1,9 +1,10 @@
 /* Stronger text contrast while retaining the existing type hierarchy. */
-:root { --ink:#171b20; --muted:#454b53; --plum:#234967; }
+:root { --ink:#171b20; --muted:#454b53; --plum:#234967; --selection-bg:#245b8f; }
+::selection { background:var(--selection-bg); color:#fff; text-shadow:none; }
 body { -webkit-font-smoothing:auto; }
 .collaborations, .research-interests>p:last-child { width:100%; max-width:none; text-wrap:wrap; }
 @media screen {
-  :root[data-theme="dark"] { --ink:#f5f2ed; --muted:#cbd1d8; --plum:#b8daf2; --link:#b8daf2; }
+  :root[data-theme="dark"] { --ink:#f5f2ed; --muted:#cbd1d8; --plum:#b8daf2; --link:#b8daf2; --selection-bg:#426f98; }
 }
 
 /* Use the real bold font files, with a larger reading scale throughout. */
