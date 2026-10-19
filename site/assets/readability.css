@@ -2,6 +2,18 @@
 :root { --ink:#171b20; --muted:#454b53; --plum:#234967; --selection-bg:#245b8f; }
 ::selection { background:var(--selection-bg); color:#fff; text-shadow:none; }
 body { -webkit-font-smoothing:auto; }
+/* Keep the narrower content and desktop margin navigation centered together. */
+@media screen and (min-width:641px) {
+  :root { --page-max-width:1080px; }
+  .page { max-width:var(--page-max-width); }
+}
+@media screen and (min-width:1000px) {
+  :root { --page-content-width:min(var(--page-max-width),calc((100vw - 232px)*.9)); }
+  .page { width:var(--page-content-width); margin-left:calc((100% - var(--page-content-width))/2 + 84px); }
+  .nav-slot .top-nav, .nav-slot .top-nav.is-docked {
+    left:calc((100% - var(--page-content-width))/2 - 84px);
+  }
+}
 .collaborations, .research-interests>p:last-child { width:100%; max-width:none; text-wrap:wrap; }
 @media screen {
   :root[data-theme="dark"] { --ink:#f5f2ed; --muted:#cbd1d8; --plum:#b8daf2; --link:#b8daf2; --selection-bg:#426f98; }
