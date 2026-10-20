@@ -4,11 +4,11 @@
 body { -webkit-font-smoothing:auto; }
 /* Keep the narrower content and desktop margin navigation centered together. */
 @media screen and (min-width:641px) {
-  :root { --page-max-width:1080px; }
+  :root { --page-max-width:960px; }
   .page { max-width:var(--page-max-width); }
 }
 @media screen and (min-width:1000px) {
-  :root { --page-content-width:min(var(--page-max-width),calc((100vw - 232px)*.9)); }
+  :root { --page-content-width:min(var(--page-max-width),calc((100vw - 232px)*.85)); }
   .page { width:var(--page-content-width); margin-left:calc((100% - var(--page-content-width))/2 + 84px); }
   .nav-slot .top-nav, .nav-slot .top-nav.is-docked {
     left:calc((100% - var(--page-content-width))/2 - 84px);
