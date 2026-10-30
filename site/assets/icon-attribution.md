@@ -10,3 +10,14 @@ brands/github, brands/linkedin-in. Original attribution comments are retained
 in the inline SVGs. Accessibility attributes and CSS sizing/color were added;
 the path geometry is unchanged. The LinkedIn viewBox omits unused bottom space
 for optical centering.
+
+
+2026-10-30 contact update:
+- Google Scholar: Academicons 1.8 glyph by James Walsh, extracted from the
+  existing repository font and adapted to an inline SVG coordinate system.
+  Font license: SIL OFL 1.1 (academicons-OFL.txt).
+  Source: https://github.com/jpswalsh/academicons
+- GitHub and LinkedIn retain the Font Awesome brand paths above.
+- CV and Email: original outline SVG drawings for this homepage.
+  The earlier file-lines, google-scholar and envelope paths are no longer used
+  in the contact row.

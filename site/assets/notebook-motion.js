@@ -2,14 +2,13 @@
   const preference = window.matchMedia('(prefers-reduced-motion: reduce)');
   const links = [...document.querySelectorAll('.top-nav a[href^="#"]')];
   const sections = links.map(link => document.getElementById(link.hash.slice(1)));
-  const navigation = document.querySelector('.top-nav');
-  const navigationSlot = document.querySelector('.nav-slot');
-  const desktopNavigation = window.matchMedia('(min-width: 1000px)');
+  const header = document.querySelector('.site-header');
   let scheduled = false;
   const updateCurrentSection = () => {
     scheduled = false;
-    navigation?.classList.toggle('is-docked', !desktopNavigation.matches && navigationSlot?.getBoundingClientRect().top <= 12);
-    const readingLine = Math.min(160, window.innerHeight * 0.25);
+    const headerHeight = header?.getBoundingClientRect().height || 0;
+    document.documentElement.style.setProperty('--nav-height', `${headerHeight}px`);
+    const readingLine = headerHeight + 40;
     let current = 0;
     sections.forEach((section, index) => {
       if (section && section.getBoundingClientRect().top <= readingLine) current = index;
@@ -29,6 +28,7 @@
   window.addEventListener('resize', scheduleUpdate);
   window.addEventListener('pageshow', scheduleUpdate);
   document.fonts?.ready.then(scheduleUpdate);
+  if (header && 'ResizeObserver' in window) new ResizeObserver(scheduleUpdate).observe(header);
   updateCurrentSection();
 
   if (preference.matches || !('IntersectionObserver' in window)) return;
