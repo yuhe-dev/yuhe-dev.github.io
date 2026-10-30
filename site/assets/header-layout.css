@@ -1,4 +1,10 @@
 /* Warm paper wash and a persistent, full-width section index. */
+@font-face {
+  font-family:'Zhi Mang Xing Name';
+  src:url('fonts/zhi-mang-xing-name.ttf') format('truetype');
+  font-weight:400; font-style:normal; font-display:swap;
+  unicode-range:U+5B87,U+8D6B;
+}
 :root {
   --paper:#fffdfa;
   --grid:#f2eee8;
@@ -9,7 +15,10 @@
   --header-hover:rgba(220,185,139,.18);
   --wash-top:#f8ecd9;
   --wash-mid:#fcf5e9;
+  --selection-bg:#ebcda5;
+  --selection-ink:#38291d;
 }
+::selection { background:var(--selection-bg); color:var(--selection-ink); text-shadow:none; }
 html { scroll-padding-top:calc(var(--nav-height) + 20px); }
 body {
   background-image:linear-gradient(to bottom,var(--wash-top),var(--wash-mid) 180px,transparent 520px),linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
@@ -39,7 +48,11 @@ body {
 .bio .anchor-alias { position:absolute; top:0; }
 .bio-copy .name-line { margin:0 0 16px; align-items:baseline; gap:18px; }
 .name-line h1 { font-size:76px; }
-.name-line .chinese-name { font-size:32px; }
+.name-line .chinese-name {
+  font-family:'Zhi Mang Xing Name','Kaiti SC',KaiTi,cursive;
+  font-size:42px; font-weight:400; line-height:1.2;
+  letter-spacing:.04em; transform:rotate(-3deg); transform-origin:center;
+}
 .profile-card { width:192px; padding-top:8px; }
 .bio .portrait { margin:0; }
 .profile-card .resource-links { display:grid; grid-template-columns:repeat(3,44px); justify-content:center; gap:4px 12px; margin-top:14px; }
@@ -72,7 +85,7 @@ body {
   .bio-copy { display:contents; }
   .bio-copy .name-line { grid-column:2; grid-row:1; flex-wrap:wrap; gap:4px 12px; margin:0; }
   .name-line h1 { font-size:54px; white-space:nowrap; }
-  .name-line .chinese-name { font-size:28px; }
+  .name-line .chinese-name { font-size:34px; }
   .bio .identity, .bio .research-lead, .bio .research-context, .bio .resource-links { grid-column:1/-1; margin:0; }
   .profile-card .resource-links { grid-row:2; display:flex; justify-content:flex-start; flex-wrap:wrap; gap:4px 8px; }
 }
@@ -82,6 +95,7 @@ body {
     --header-wash:rgba(40,35,30,.94); --header-edge:rgba(209,174,126,.25);
     --header-active:#edc894; --header-hover:rgba(209,174,126,.12);
     --wash-top:#302921; --wash-mid:#222225;
+    --selection-bg:#785632; --selection-ink:#fff6e8;
   }
   [data-theme="dark"] .resource-links .profile-link-cv { color:#e0ae7c; }
   [data-theme="dark"] .resource-links [aria-label="Google Scholar"] { color:#8ab4f8; }
