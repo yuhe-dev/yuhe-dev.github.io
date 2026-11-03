@@ -18,3 +18,5 @@
   .top-nav.is-docked .theme-toggle { right:16px; }
   .nav-slot .top-nav a { min-height:44px; width:fit-content; }
 }
+
+.background-section .language-proficiency > p { grid-column:2; }
