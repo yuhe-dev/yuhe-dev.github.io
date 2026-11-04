@@ -1,4 +1,4 @@
-/* Warm paper wash and a persistent, full-width section index. */
+/* Paper background with a restrained, persistent section index. */
 @font-face {
   font-family:'Zhi Mang Xing Name';
   src:url('fonts/zhi-mang-xing-name.ttf') format('truetype');
@@ -27,22 +27,30 @@ body {
 }
 .site-header {
   position:sticky; top:0; z-index:30;
-  background:var(--header-wash);
-  border-bottom:1px solid var(--header-edge);
-  backdrop-filter:blur(16px); -webkit-backdrop-filter:blur(16px);
+  background:var(--paper);
+  border-bottom:1px solid var(--line);
+  backdrop-filter:none; -webkit-backdrop-filter:none;
 }
 .site-header .nav-slot { position:static; height:auto; margin:0; }
 .site-header .top-nav, .site-header .top-nav.is-docked {
   position:static; inset:auto; width:min(960px,calc(100% - 48px)); height:auto; min-height:72px;
   margin:0 auto; padding:8px 0; border:0; border-radius:0; box-shadow:none; background:transparent;
   display:flex; flex-direction:row; align-items:center; justify-content:flex-end; gap:4px;
-  font:500 17px/1.4 var(--sans);
+  font:400 17px/1.4 var(--sans);
 }
-.site-header .top-nav a { min-height:44px; padding:8px 10px; border-radius:7px; color:var(--muted); }
+/* Keep hover, current section, and keyboard focus distinct. */
+.site-header .top-nav a { min-height:44px; padding:8px 10px; border-radius:0; color:var(--muted); font-weight:400; background:transparent; }
 .site-header .top-nav a::before { display:none; }
-.site-header .top-nav a:hover, .site-header .top-nav a:focus-visible { color:var(--header-active); background:var(--header-hover); text-decoration:none; }
-.site-header .top-nav a[aria-current="location"] { color:var(--header-active); background:var(--header-hover); font-weight:700; }
-.site-header .top-nav .theme-toggle { position:static; align-self:center; margin:0; }
+.site-header .top-nav a::after {
+  content:""; position:absolute; left:50%; bottom:4px; width:24px; height:1px;
+  background:currentColor; transform:translateX(-50%); opacity:0; pointer-events:none;
+}
+.site-header .top-nav a:hover, .site-header .top-nav a:focus-visible { color:var(--ink); background:transparent; text-decoration:none; }
+.site-header .top-nav a[aria-current="location"] { color:var(--ink); background:transparent; font-weight:400; }
+.site-header .top-nav a[aria-current="location"]::after { opacity:1; }
+.site-header .top-nav a:focus-visible, .site-header .theme-toggle:focus-visible { outline:2px solid var(--ink); outline-offset:2px; }
+.site-header .top-nav .theme-toggle { position:static; align-self:center; margin:0; color:var(--muted); background:transparent; }
+.site-header .top-nav .theme-toggle:hover { color:var(--ink); background:transparent; }
 .page { width:min(960px,calc(100% - 48px)); max-width:960px; margin-inline:auto; padding-top:40px; }
 .bio { position:relative; align-items:start; padding-top:0; gap:32px; }
 .bio .anchor-alias { position:absolute; top:0; }
