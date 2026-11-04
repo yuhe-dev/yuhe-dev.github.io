@@ -134,7 +134,7 @@
   <link rel="stylesheet" href="assets/project-image-viewer.css?v=2">
   <link rel="stylesheet" href="assets/readability.css?v=20261019-width">
   <link rel="stylesheet" href="assets/header-layout.css?v=20261030-name">
-  <link rel="stylesheet" href="assets/project-points.css?v=20261104">
+  <link rel="stylesheet" href="assets/project-points.css?v=20261104-papers">
 </head>
 <body>
 <!--
@@ -199,31 +199,141 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
     <section class="section" id="research" aria-labelledby="research-title">
       <h2 id="research-title">Selected research</h2>
       <span id="publications" class="anchor-alias" aria-hidden="true"></span>
-      <article class="paper paper-with-figure" id="slicetune"><div class="paper-meta"><span class="venue venue-chi">CHI&nbsp;<time class="venue-year" datetime="2027">’27</time></span></div><figure class="project-figure"><a class="figure-link" href="assets/slicetune-system.png" aria-label="Open the full slicetune system figure"><img src="assets/slicetune-system.png" alt="SliceTune system overview" width="2000" height="1073" loading="lazy"></a></figure><div class="paper-copy"><h3>SliceTune: Supporting Interactive Intent-Guided Slice Finding for Model Validation</h3><p class="authors">Submitted to <a href="https://chi2027.acm.org/">CHI 2027</a> · Under review</p><p class="paper-summary">SliceTune grounds natural-language validation intents in interpretable data attributes. A Feature Graph combines attribute relevance with user feedback to guide failure-slice discovery, while coordinated visual evidence supports model diagnosis and data repair planning.</p><div class="paper-resources"><a href="assets/slicetune-system.pdf">Figure PDF <span aria-hidden="true">&nbsp;↗</span></a></div></div></article>
-      <article class="paper paper-with-figure" id="skillcontour"><div class="paper-meta"><span class="venue venue-chi">CHI&nbsp;<time class="venue-year" datetime="2027">’27</time></span></div><figure class="project-figure"><a class="figure-link" href="assets/skillcontour-system.png" aria-label="Open the full skillcontour system figure"><img src="assets/skillcontour-system.png" alt="SkillContour system overview" width="2000" height="1250" loading="lazy"></a></figure><div class="paper-copy"><h3>SkillContour: Steering Agent Skill Consolidation with Behavioral Evidence</h3><p class="authors">Submitted to <a href="https://chi2027.acm.org/">CHI 2027</a> · Under review</p><p class="paper-summary">SkillContour supports human review of agent skill consolidation by linking source patches, synthesized instructions, and execution traces. Reviewers can revise skill groupings and refinement intents, then re-synthesize and replay candidate skills before committing an update.</p><div class="paper-resources"><a href="assets/skillcontour-system.pdf">Figure PDF <span aria-hidden="true">&nbsp;↗</span></a></div></div></article>
-      <article class="paper paper-with-figure" id="skillcommit"><div class="paper-meta"><span class="venue venue-arr">ARR submission</span></div><div class="paper-thumbnail"><a class="figure-link" href="assets/skillcommit-framework.png?v=20261015" aria-label="Open the SkillCommit publication framework"><img src="assets/skillcommit-framework.png?v=20261015" alt="SkillCommit overview: feedback-guided patch induction, behavioral compatibility grouping, and source-preserving consolidation" width="2000" height="789" loading="lazy"></a></div><div class="paper-copy">
-
-
-        <h3><a href="https://arxiv.org/abs/2608.15165">SkillCommit: Evolving Agent Skills through Behaviorally Validated Scope Expansion</a></h3>
-        <p class="authors"><strong>Yu He</strong>, <a href="https://vicayang.cc/">Weikai Yang</a></p>
-        <p class="authors"><a href="https://aclrollingreview.org/">ARR submission</a></p>
-        <p class="paper-summary">SkillCommit turns task-specific repairs into reusable agent skills without updating model parameters. Cross-instance replay and mechanism checks establish behavioral compatibility before consolidation; merged skills are committed only after replay confirms that their source repairs remain effective.</p>
-        <div class="paper-resources"><a href="https://arxiv.org/abs/2608.15165" aria-label="SkillCommit on arXiv">arXiv <span aria-hidden="true">&nbsp;↗</span></a><a href="https://arxiv.org/pdf/2608.15165" aria-label="SkillCommit PDF">PDF <span aria-hidden="true">&nbsp;↗</span></a><a href="assets/skillcommit-framework.pdf?v=20261015">Figure PDF <span aria-hidden="true">&nbsp;↗</span></a></div>
-      </div></article>
-      <article class="paper paper-with-figure" id="networkcanvas"><div class="paper-meta"><span class="venue venue-chi">CHI&nbsp;<time class="venue-year" datetime="2026">’26</time></span><span class="venue-detail">Published conference paper</span></div><div class="paper-thumbnail"><a class="figure-link" href="assets/networkcanvas.png" aria-label="Open the full NetworkCanvas interface image"><img src="assets/networkcanvas.png" alt="NetworkCanvas interface with coordinated network views and exploration history" width="2420" height="1386" loading="lazy"></a></div><div class="paper-copy">
-
-
-        <h3><a href="https://doi.org/10.1145/3772318.3791211">NetworkCanvas: Supporting Progressive Network Visualization Exploration via Adaptive Recommendations</a></h3>
-        <p class="authors">Wenchao Li, Yuewen Gao, <strong>Yu He</strong>, Cong Zhu, Ke Xu</p>
-        <p class="paper-summary">NetworkCanvas guides open-ended network exploration through recommendations that adapt to user feedback. An analytic state graph preserves branching exploration histories, while a context-aware feedback interpreter suggests analytical continuations based on users’ selections.</p><div class="paper-resources"><a href="https://doi.org/10.1145/3772318.3791211" aria-label="NetworkCanvas DOI">DOI <span aria-hidden="true">&nbsp;↗</span></a><a href="https://wenchao.li/pdf/chi26_li_networkcanvas.pdf" aria-label="NetworkCanvas PDF">PDF <span aria-hidden="true">&nbsp;↗</span></a><a href="assets/networkcanvas.png">View figure <span aria-hidden="true">&nbsp;↗</span></a></div></div></article>
-      <article class="paper paper-with-figure" id="mssr"><div class="paper-meta"><span class="venue venue-preprint">arXiv&nbsp;<time class="venue-year" datetime="2026">’26</time></span></div><div class="paper-thumbnail"><a class="figure-link" href="assets/mssr.png" aria-label="Open the full MSSR framework image"><img src="assets/mssr.png" alt="MSSR framework illustrating memory-aware adaptive replay for continual fine-tuning" width="1519" height="887" loading="lazy"></a></div><div class="paper-copy">
-
-
-        <h3><a href="https://arxiv.org/abs/2603.09892">MSSR: Memory-Aware Adaptive Replay for Continual LLM Fine-Tuning</a></h3>
-        <p class="authors">Yiyang Lu, <strong>Yu He</strong>, Jianlong Chen, Hongyuan Zha</p>
-        <p class="paper-summary">MSSR addresses catastrophic forgetting in continual LLM fine-tuning through memory-aware experience replay. It estimates sample-level memory strength and adaptively schedules rehearsal, balancing retention of previously learned knowledge with adaptation to new tasks.</p><div class="paper-resources"><a href="https://arxiv.org/abs/2603.09892" aria-label="MSSR on arXiv">arXiv <span aria-hidden="true">&nbsp;↗</span></a><a href="https://arxiv.org/pdf/2603.09892" aria-label="MSSR PDF">PDF <span aria-hidden="true">&nbsp;↗</span></a><a href="assets/mssr.png">View figure <span aria-hidden="true">&nbsp;↗</span></a></div></div></article>
+      <article class="publication-entry" id="slicetune" aria-labelledby="slicetune-title">
+        <figure class="publication-visual">
+          <a class="figure-link figure-detail" href="assets/slicetune-system.png" aria-label="Open complete SliceTune figure" style="--teaser-width:416.6667%;--teaser-left:0.0000%;--teaser-top:-66.6667%"><img src="assets/slicetune-system.png" alt="Feature Graph connecting validation intents with interpretable data attributes." loading="lazy"></a>
+          <figcaption>Feature Graph</figcaption>
+        </figure>
+        <div class="publication-body">
+          <h3 class="publication-title" id="slicetune-title">SliceTune: Supporting Interactive Intent-Guided Slice Finding for Model Validation</h3>
+          <p class="publication-status">CHI 2027 · Under review</p>
+          <p class="publication-takeaway"><span class="takeaway-label">In brief</span>Validation intents guide failure-slice discovery through a feedback-aware Feature Graph.</p>
+          <div class="publication-actions">
+            <nav class="publication-resources" aria-label="SliceTune resources"><a href="assets/slicetune-system.png">Figure</a></nav>
+            <details class="publication-details">
+              <summary>Method<span class="publication-sr-only"> for SliceTune</span></summary>
+              <div class="publication-expanded">
+                <p>SliceTune grounds natural-language validation intents in interpretable data attributes. A Feature Graph combines attribute relevance with user feedback to guide failure-slice discovery, while coordinated visual evidence supports model diagnosis and data repair planning.</p>
+                <figure class="publication-original"><a class="figure-link" href="assets/slicetune-system.png" aria-label="Enlarge original SliceTune figure"><img src="assets/slicetune-system.png" alt="SliceTune system overview" width="2000" height="1073" loading="lazy"></a><figcaption>Feature Graph connecting validation intents with interpretable data attributes.</figcaption></figure>
+                <a class="figure-download" href="assets/slicetune-system.pdf">Download figure PDF ↗</a>
+              </div>
+            </details>
+          </div>
+        </div>
+      </article>
+      <article class="publication-entry" id="skillcontour" aria-labelledby="skillcontour-title">
+        <figure class="publication-visual">
+          <a class="figure-link figure-detail" href="assets/skillcontour-system.png" aria-label="Open complete SkillContour figure" style="--teaser-width:250.0000%;--teaser-left:-37.5000%;--teaser-top:-20.0000%"><img src="assets/skillcontour-system.png" alt="Skill review matrix linking source cases, skill versions, and replay evidence." loading="lazy"></a>
+          <figcaption>Skill review matrix</figcaption>
+        </figure>
+        <div class="publication-body">
+          <h3 class="publication-title" id="skillcontour-title">SkillContour: Steering Agent Skill Consolidation with Behavioral Evidence</h3>
+          <p class="publication-status">CHI 2027 · Under review</p>
+          <p class="publication-takeaway"><span class="takeaway-label">In brief</span>Linked patch, instruction, and execution evidence lets reviewers steer agent skill consolidation.</p>
+          <div class="publication-actions">
+            <nav class="publication-resources" aria-label="SkillContour resources"><a href="assets/skillcontour-system.png">Figure</a></nav>
+            <details class="publication-details">
+              <summary>Method<span class="publication-sr-only"> for SkillContour</span></summary>
+              <div class="publication-expanded">
+                <p>SkillContour supports human review of agent skill consolidation by linking source patches, synthesized instructions, and execution traces. Reviewers can revise skill groupings and refinement intents, then re-synthesize and replay candidate skills before committing an update.</p>
+                <figure class="publication-original"><a class="figure-link" href="assets/skillcontour-system.png" aria-label="Enlarge original SkillContour figure"><img src="assets/skillcontour-system.png" alt="SkillContour system overview" width="2000" height="1250" loading="lazy"></a><figcaption>Skill review matrix linking source cases, skill versions, and replay evidence.</figcaption></figure>
+                <a class="figure-download" href="assets/skillcontour-system.pdf">Download figure PDF ↗</a>
+              </div>
+            </details>
+          </div>
+        </div>
+      </article>
+      <article class="publication-entry" id="skillcommit" aria-labelledby="skillcommit-title">
+        <figure class="publication-visual">
+          <a class="figure-link figure-detail" href="assets/skillcommit-framework.png?v=20261015" aria-label="Open complete SkillCommit figure" style="--teaser-width:289.8551%;--teaser-left:-189.8551%;--teaser-top:-41.5459%"><img src="assets/skillcommit-framework.png?v=20261015" alt="Source-preserving consolidation: replay, then commit, split, or reject." loading="lazy"></a>
+          <figcaption>Source-preserving consolidation</figcaption>
+        </figure>
+        <div class="publication-body">
+          <h3 class="publication-title" id="skillcommit-title"><a href="https://arxiv.org/abs/2608.15165">SkillCommit: Evolving Agent Skills through Behaviorally Validated Scope Expansion</a></h3>
+          <p class="publication-authors"><strong>Yu He</strong>, <a href="https://vicayang.cc/">Weikai Yang</a></p>
+          <p class="publication-status">ARR submission</p>
+          <p class="publication-takeaway"><span class="takeaway-label">In brief</span>Replay-validated consolidation turns task-specific repairs into reusable skills while preserving source-case behavior.</p>
+          <div class="publication-actions">
+            <nav class="publication-resources" aria-label="SkillCommit resources"><a href="https://arxiv.org/abs/2608.15165">Paper</a><a href="https://arxiv.org/pdf/2608.15165">PDF</a><a href="assets/skillcommit-framework.png?v=20261015">Figure</a></nav>
+            <details class="publication-details">
+              <summary>Method<span class="publication-sr-only"> for SkillCommit</span></summary>
+              <div class="publication-expanded">
+                <p>SkillCommit turns task-specific repairs into reusable agent skills without updating model parameters. Cross-instance replay and mechanism checks establish behavioral compatibility before consolidation; merged skills are committed only after replay confirms that their source repairs remain effective.</p>
+                <figure class="publication-original"><a class="figure-link" href="assets/skillcommit-framework.png?v=20261015" aria-label="Enlarge original SkillCommit figure"><img src="assets/skillcommit-framework.png?v=20261015" alt="SkillCommit overview: feedback-guided patch induction, behavioral compatibility grouping, and source-preserving consolidation" width="2000" height="789" loading="lazy"></a><figcaption>Source-preserving consolidation: replay, then commit, split, or reject.</figcaption></figure>
+                <a class="figure-download" href="assets/skillcommit-framework.pdf?v=20261015">Download figure PDF ↗</a>
+              </div>
+            </details>
+          </div>
+        </div>
+      </article>
+      <article class="publication-entry" id="networkcanvas" aria-labelledby="networkcanvas-title">
+        <figure class="publication-visual">
+          <a class="figure-link figure-detail" href="assets/networkcanvas.png" aria-label="Open complete NetworkCanvas figure" style="--teaser-width:201.6667%;--teaser-left:-55.0000%;--teaser-top:-22.2222%"><img src="assets/networkcanvas.png" alt="Network exploration canvas with context-sensitive recommendations." loading="lazy"></a>
+          <figcaption>Recommendation-guided exploration</figcaption>
+        </figure>
+        <div class="publication-body">
+          <h3 class="publication-title" id="networkcanvas-title"><a href="https://doi.org/10.1145/3772318.3791211">NetworkCanvas: Supporting Progressive Network Visualization Exploration via Adaptive Recommendations</a></h3>
+          <p class="publication-authors">Wenchao Li, Yuewen Gao, <strong>Yu He</strong>, Cong Zhu, Ke Xu</p>
+          <p class="publication-status">CHI 2026</p>
+          <p class="publication-takeaway"><span class="takeaway-label">In brief</span>Adaptive recommendations and branching exploration histories guide open-ended network analysis.</p>
+          <div class="publication-actions">
+            <nav class="publication-resources" aria-label="NetworkCanvas resources"><a href="https://doi.org/10.1145/3772318.3791211">Paper</a><a href="assets/networkcanvas.png">Figure</a></nav>
+            <details class="publication-details">
+              <summary>Method<span class="publication-sr-only"> for NetworkCanvas</span></summary>
+              <div class="publication-expanded">
+                <p>NetworkCanvas guides open-ended network exploration through recommendations that adapt to user feedback. An analytic state graph preserves branching exploration histories, while a context-aware feedback interpreter suggests analytical continuations based on users’ selections.</p>
+                <figure class="publication-original"><a class="figure-link" href="assets/networkcanvas.png" aria-label="Enlarge original NetworkCanvas figure"><img src="assets/networkcanvas.png" alt="NetworkCanvas interface with coordinated network views and exploration history" width="2420" height="1386" loading="lazy"></a><figcaption>Network exploration canvas with context-sensitive recommendations.</figcaption></figure>
+                <a class="figure-download" href="https://wenchao.li/pdf/chi26_li_networkcanvas.pdf">Author PDF ↗</a>
+              </div>
+            </details>
+          </div>
+        </div>
+      </article>
+      <article class="publication-entry" id="mssr" aria-labelledby="mssr-title">
+        <figure class="publication-visual">
+          <a class="figure-link figure-detail" href="assets/mssr.png" aria-label="Open complete MSSR figure" style="--teaser-width:245.0000%;--teaser-left:-10.4839%;--teaser-top:-55.9140%"><img src="assets/mssr.png" alt="Sample memory model and retention dynamics used for adaptive replay." loading="lazy"></a>
+          <figcaption>Sample memory dynamics</figcaption>
+        </figure>
+        <div class="publication-body">
+          <h3 class="publication-title" id="mssr-title"><a href="https://arxiv.org/abs/2603.09892">MSSR: Memory-Aware Adaptive Replay for Continual LLM Fine-Tuning</a></h3>
+          <p class="publication-authors">Yiyang Lu, <strong>Yu He</strong>, Jianlong Chen, Hongyuan Zha</p>
+          <p class="publication-status">arXiv preprint · 2026</p>
+          <p class="publication-takeaway"><span class="takeaway-label">In brief</span>Sample-level retention estimates determine what to replay and when during continual fine-tuning.</p>
+          <div class="publication-actions">
+            <nav class="publication-resources" aria-label="MSSR resources"><a href="https://arxiv.org/abs/2603.09892">Paper</a><a href="https://arxiv.org/pdf/2603.09892">PDF</a><a href="assets/mssr.png">Figure</a></nav>
+            <details class="publication-details">
+              <summary>Method<span class="publication-sr-only"> for MSSR</span></summary>
+              <div class="publication-expanded">
+                <p>MSSR addresses catastrophic forgetting in continual LLM fine-tuning through memory-aware experience replay. It estimates sample-level memory strength and adaptively schedules rehearsal, balancing retention of previously learned knowledge with adaptation to new tasks.</p>
+                <figure class="publication-original"><a class="figure-link" href="assets/mssr.png" aria-label="Enlarge original MSSR figure"><img src="assets/mssr.png" alt="MSSR framework illustrating memory-aware adaptive replay for continual fine-tuning" width="1519" height="887" loading="lazy"></a><figcaption>Sample memory model and retention dynamics used for adaptive replay.</figcaption></figure>
+              </div>
+            </details>
+          </div>
+        </div>
+      </article>
+      <article class="publication-entry" id="newstract" aria-labelledby="newstract-title">
+        <figure class="publication-visual">
+          <a class="figure-link figure-detail" href="assets/newstract.png" aria-label="Open complete NewsTract figure" style="--teaser-width:399.2208%;--teaser-left:-290.9091%;--teaser-top:-121.2121%"><img src="assets/newstract.png" alt="River Map linking related events across news broadcasts." loading="lazy"></a>
+          <figcaption>Cross-broadcast event connections</figcaption>
+        </figure>
+        <div class="publication-body">
+          <h3 class="publication-title" id="newstract-title">NewsTract — Multimodal Analysis of News Videos: Event-based Visual Summarization over Serial Broadcasts</h3>
+          <p class="publication-authors">Yuewen Gao, <strong>Yu He</strong>, Xianglei Lv, Yingying Dong, Ke Xu</p>
+          <p class="publication-status">Earlier research</p>
+          <p class="publication-takeaway"><span class="takeaway-label">In brief</span>Multimodal event segmentation and linked views reveal connections across serial news broadcasts.</p>
+          <div class="publication-actions">
+            <nav class="publication-resources" aria-label="NewsTract resources"><a href="assets/newstract.png">Figure</a></nav>
+            <details class="publication-details">
+              <summary>Method<span class="publication-sr-only"> for NewsTract</span></summary>
+              <div class="publication-expanded">
+                <p>NewsTract supports event-centered exploration and summarization across news video series. Multimodal event detection aligns visual and semantic cues, while coordinated video, event, and keyword views help users trace connections across broadcasts.</p>
+                <figure class="publication-original"><a class="figure-link" href="assets/newstract.png" aria-label="Enlarge original NewsTract figure"><img src="assets/newstract.png" alt="NewsTract system overview: video selection, event association, and detailed inspection" width="1537" height="681" loading="lazy"></a><figcaption>River Map linking related events across news broadcasts.</figcaption></figure>
+              </div>
+            </details>
+          </div>
+        </div>
+      </article>
       <span id="earlier-research" class="anchor-alias" aria-hidden="true"></span>
-      <article class="paper paper-with-figure" id="newstract"><div class="paper-meta"><span class="venue-detail">Earlier research</span></div><figure class="project-figure"><a class="figure-link" href="assets/newstract.png" aria-label="Open the full NewsTract system figure"><img src="assets/newstract.png" alt="NewsTract system overview: video selection, event association, and detailed inspection" width="1537" height="681" loading="lazy"></a></figure><div class="paper-copy"><h3>NewsTract — Multimodal Analysis of News Videos: Event-based Visual Summarization over Serial Broadcasts</h3><p class="authors">Yuewen Gao, <strong>Yu He</strong>, Xianglei Lv, Yingying Dong, Ke Xu</p><p class="paper-summary">NewsTract supports event-centered exploration and summarization across news video series. Multimodal event detection aligns visual and semantic cues, while coordinated video, event, and keyword views help users trace connections across broadcasts.</p><div class="paper-resources"><a href="assets/newstract.png">View figure <span aria-hidden="true">&nbsp;↗</span></a></div></div></article>
     </section>
 
     <span id="background" class="anchor-alias" aria-hidden="true"></span>
